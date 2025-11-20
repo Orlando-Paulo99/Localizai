@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localizai</title>
+    <link rel="stylesheet" href="style.css">
+
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 class="titulo">Consulta CEP</h1>
+    
+    <div class="geral">
+        <h1>Busque um Endereço</h1>
+        <p>Digite o CEP para encontrar os detalhes do endereço</p>
+        <h4>CEP</h4>
+        <input type="number" id="cep" placeholder="Digite o CEP ">
+        <br>
+        <button onclick="localizar()">Localizar</button>
+
+        <div class="vazia">
+            <h1>Resultado de Busca</h1>
+
+            <p id="cepNew"></p>
+            <p id="logradouro"></p>
+            <p id="bairro"></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
